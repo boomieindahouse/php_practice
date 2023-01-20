@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME</title>
+
+	
+
+</head>
+<body>
+
+<center>
+	<form method="post" style="background-color: skyblue; width: 640px;" action="64172310565-3_lab6-receive.php" enctype="multipart/form-data">
+		<h2 style="padding: 10px;">แบบฟอร์มการรับสมัครงาน</h2>
+
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<span style="font-size: 14px;">คำนำหน้า </span>
+				</div>
+				<div class="col-sm-1" style="margin-left: -100px;">
+					<select name="title" id="title">
+					  <option value="นาย">นาย</option>
+					  <option value="นาง">นาง</option>
+					  <option value="นางสาว">นางสาว</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row" style="padding: 5px;">
+				<div class="col-sm-4">
+					<span>ชื่อ</span>
+				</div>
+				<div class="col-sm-1" style="margin-left: -100px;">
+					<input type="text" name="fname" id="fname">
+				</div>
+			</div>
+			<div class="row" style="padding: 5px;">
+				<div class="col-sm-4">
+					<span>นามสกุล</span>
+				</div>
+				<div class="col-sm-1" style="margin-left: -100px;">
+					<input type="text" name="lname" id="lname">
+				</div>
+			</div>
+			<div class="row" style="padding: 5px;">
+				<div class="col-sm-4">
+					<span>เพศ: </span>
+				</div>
+				<div class="col-sm-2" style="margin-left: -100px;">
+					<input type="radio" name="sex" value="ชาย"><span>ชาย</span>
+					<input type="radio" name="sex" value="หญิง"><span>หญิง</span>
+					<input type="radio" name="sex" value="ไม่ระบุ"><span>ไม่ระบุ</span>
+				</div>
+			</div>
+			<div class="row" style="padding: 5px;">
+				<div class="col-sm-4">
+				<span>อัปโหลดรูปภาพ</span>
+				</div>
+				<div class="col-sm-1" style="margin-left: -100px;">
+					<input type="file" name="photo" id="photo">
+				</div>
+			</div>
+			<div class="row" style="padding: 5px;">
+				<div class="col-sm-6">
+					<button type="submit" name="btn" id="btn" style="width: 240px;">บันทึกข้อมูล</button>
+				</div>
+			</div>
+		</div>
+		
+
+	</form>
+</center>
+
+</body>
+</html>
